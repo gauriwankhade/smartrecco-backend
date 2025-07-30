@@ -76,8 +76,6 @@ class RecommendView(APIView):
 
 
 
-from .utils.vector_db import add_to_vector_db, search_similar_queries
-from .utils.embedding import get_embedding
 
 class RecommendWithVectorDbView(APIView):
 
